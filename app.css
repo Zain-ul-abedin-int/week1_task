@@ -1,0 +1,153 @@
+ /* Global styles */
+/* Global styles */
+body {
+  background-color: #F0F4F8;
+  color: #1F2937;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #0047AC;
+  margin-bottom: 0;
+  text-align: center;
+
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  color: #1F2937;
+}
+
+/* Accent elements like buttons and links */
+a{
+  background-color: #1497D4;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a:hover, button:hover {
+  background-color: #0f80b6; /* Slightly darker for hover */
+}
+
+/* Optional content boxes or cards */
+.content-box {
+  background-color: #ffffff;
+  color: #1F2937;
+  border-left: 4px solid #1497D4;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* About section layout */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.about-image {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+li{
+    padding: 100px;
+}
+.center{
+  text-align: center;
+}
+/* Reset header and nav */
+header {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* NAV RESET */
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fix ul style */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0; /* Controls total navbar height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Fix nav items */
+nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style nav links */
+nav ul li a {
+  color: #0047AC;
+  background-color: transparent;
+  padding: 4px 8px;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #1497D4;
+  color: #ffffff;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer li {
+  display: inline-block;
+}
+

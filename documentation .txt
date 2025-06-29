@@ -1,0 +1,6 @@
+DOCUMENTATION
+HTML SECTION:
+The html section was no problem for me it divided  the page into three section header and nav Main and the footer .the nav was used to create the I made the separate navigation bar the main  was  further divided into three section  the footer was where my contact links were I used Ideas to link it to the nav bar. Used the anchor tag to anchor them used png svg images to add ul to create the nav and the footer section 
+CSS
+This was the trickey part because I don’t know much of css how to select color scheme etc. I also didn’t know the proper properties  to built it how I wanted the css works is totally research based I don’t know half the things what they are doing
+
